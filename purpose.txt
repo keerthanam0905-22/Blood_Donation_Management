@@ -1,0 +1,44 @@
+Blood Donation Management System (Search + Sort)
+1. Problem Statement
+    -Hospitals and blood banks often face difficulty in:
+    -Finding matching blood donors quickly
+    -Managing donor records
+    -Tracking blood stock availability
+    -Handling emergency blood requests
+
+System Objectives
+The system must:
+    1.Register blood donors
+    2.Store blood group information
+    3.Handle emergency blood requests
+    4.Match compatible donors
+    5.Maintain blood inventory
+    6.Generate reports
+    7.Store data permanently (File/SQLite)
+
+Functional Requirements
+A. Donor Management
+    •Add donor (Name, Age, Blood Group, Contact, Last Donation Date)
+    •Update donor details
+    •Delete donor
+    •Search donor by:
+        -Blood group
+        -Location (optional advanced feature)
+        -unrecent donation(before 5 months)
+
+B. Blood Inventory Management
+    •Add blood units
+    •Remove blood units
+    •Display available stock by blood group
+    •Alert if stock is low
+
+C. Emergency Request Handling
+    •Add patient request
+    •Match compatible donors
+    •Maintain waiting list if blood unavailable(Emergency color )
+
+D. Reports
+    •Total donors
+    •Blood stock summary
+    •Most requested blood group
+    •Donation history
